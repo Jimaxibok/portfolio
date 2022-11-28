@@ -344,6 +344,10 @@ img {
   #about-c .about-logos img {
     width: 70%; }
 
+#about-c #ant-logo {
+  width: 80%;
+  height: 80%; }
+
 #about-d .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -472,3 +476,11 @@ img {
       flex-direction: column;
       padding: 1rem;
       height: 5rem; } }
+
+@media (max-height: 580px) {
+  #header-home .header-content {
+    padding-top: 3rem; } }
+
+@media (max-height: 330px) {
+  #header-home .header-content h1 {
+    font-size: 2rem; } }
